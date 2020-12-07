@@ -1,8 +1,9 @@
-package com.prcoding.prmusics
+package com.prcoding.prmusics.ui.viewmodels
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.RequestManager
+import com.prcoding.prmusics.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
