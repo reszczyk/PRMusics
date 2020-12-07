@@ -17,6 +17,7 @@ import com.prcoding.prmusics.exoplayer.callbacks.MusicPlaybackPreparer
 import com.prcoding.prmusics.exoplayer.callbacks.MusicPlayerEventListener
 import com.prcoding.prmusics.exoplayer.callbacks.MusicPlayerNotificationListener
 import com.prcoding.prmusics.other.Constants.MEDIA_ROOT_ID
+import com.prcoding.prmusics.other.Constants.NETTWORK_ERROR
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
 import javax.inject.Inject
@@ -151,6 +152,7 @@ class MusicService : MediaBrowserServiceCompat() {
                             isPlayerInitialized = true
                         }
                     } else {
+                        mediaSession.sendSessionEvent(NETTWORK_ERROR, null)
                         result.sendResult(null)
                     }
                 }
