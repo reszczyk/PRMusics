@@ -1,4 +1,4 @@
-package com.plcoding.prmusics
+package com.prcoding.prmusics
 
 import org.junit.Test
 

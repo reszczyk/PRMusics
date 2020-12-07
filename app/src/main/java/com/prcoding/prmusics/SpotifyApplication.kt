@@ -1,4 +1,4 @@
-package com.plcoding.prmusics
+package com.prcoding.prmusics
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

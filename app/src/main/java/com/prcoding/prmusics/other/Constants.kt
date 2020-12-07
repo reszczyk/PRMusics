@@ -1,4 +1,4 @@
-package com.plcoding.prmusics.other
+package com.prcoding.prmusics.other
 
 object Constants {
     const val SONG_COLLECTION = "songs"

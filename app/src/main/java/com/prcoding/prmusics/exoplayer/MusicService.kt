@@ -1,4 +1,4 @@
-package com.plcoding.prmusics.exoplayer
+package com.prcoding.prmusics.exoplayer
 
 import android.app.PendingIntent
 import android.os.Bundle

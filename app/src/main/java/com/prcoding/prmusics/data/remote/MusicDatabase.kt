@@ -1,8 +1,8 @@
-package com.plcoding.prmusics.data.remote
+package com.prcoding.prmusics.data.remote
 
 import com.google.firebase.firestore.FirebaseFirestore
-import com.plcoding.prmusics.data.entities.Song
-import com.plcoding.prmusics.other.Constants.SONG_COLLECTION
+import com.prcoding.prmusics.data.entities.Song
+import com.prcoding.prmusics.other.Constants.SONG_COLLECTION
 import kotlinx.coroutines.tasks.await
 
 class MusicDatabase {

@@ -1,4 +1,4 @@
-package com.plcoding.prmusics.data.entities
+package com.prcoding.prmusics.data.entities
 
 data class Song (
     val mediaId: String = "",

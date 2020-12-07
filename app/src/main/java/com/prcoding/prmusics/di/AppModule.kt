@@ -1,10 +1,10 @@
-package com.plcoding.prmusics.di
+package com.prcoding.prmusics.di
 
 import android.content.Context
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
-import com.plcoding.prmusics.R
+import com.prcoding.prmusics.R
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
