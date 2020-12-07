@@ -1,4 +1,4 @@
-package com.plcoding.spotifycloneyt
+package com.plcoding.prmusics
 
 import org.junit.Test
 
