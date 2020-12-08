@@ -1,15 +1,8 @@
 package com.prcoding.prmusics.adapters
 
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.AsyncListDiffer
-import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.RequestManager
 import com.prcoding.prmusics.R
-import com.prcoding.prmusics.data.entities.Song
 import kotlinx.android.synthetic.main.list_item.view.*
 import javax.inject.Inject
 
