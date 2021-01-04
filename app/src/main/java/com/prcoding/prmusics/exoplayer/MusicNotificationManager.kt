@@ -79,6 +79,5 @@ class MusicNotificationManager (
                 })
             return null
         }
-
     }
 }
